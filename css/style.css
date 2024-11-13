@@ -2615,7 +2615,7 @@ price
   border-radius: 50px;
 }
 .mil-switcher:after {
-  content: "-۳۰%";
+  content: "ویژه اصفهان!";
   background: linear-gradient(180deg, #F27457 0%, #A08488 100%);
   padding: 10px 15px;
   border-radius: 40px;
