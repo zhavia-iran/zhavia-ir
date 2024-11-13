@@ -167,23 +167,23 @@ $(function () {
 
     //   Change the active class on the switcher
     var price = $('.mil-pricing-table-price');
-    var year = $("#year");
-    var month = $("#month");
+    var company = $("#company");
+    var marketing = $("#marketing");
 
 
-    year.on('click', function () {
+    company.on('click', function () {
         $(this).addClass('mil-active');
-        month.removeClass('mil-active');
+        marketing.removeClass('mil-active');
         price.each(function () {
-            $(this).text($(this).data('year-price'));
+            $(this).text($(this).data('company-price'));
         });
     });
 
-    month.on('click', function () {
+    marketing.on('click', function () {
         $(this).addClass('mil-active');
-        year.removeClass('mil-active');
+        company.removeClass('mil-active');
         price.each(function () {
-            $(this).text($(this).data('month-price'));
+            $(this).text($(this).data('marketing-price'));
         });
     });
     /***************************
