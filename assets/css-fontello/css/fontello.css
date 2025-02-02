@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?59793955');
-  src: url('../font/fontello.eot?59793955#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?59793955') format('woff2'),
-       url('../font/fontello.woff?59793955') format('woff'),
-       url('../font/fontello.ttf?59793955') format('truetype'),
-       url('../font/fontello.svg?59793955#fontello') format('svg');
+  src: url('../font/fontello.eot?30915299');
+  src: url('../font/fontello.eot?30915299#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?30915299') format('woff2'),
+       url('../font/fontello.woff?30915299') format('woff'),
+       url('../font/fontello.ttf?30915299') format('truetype'),
+       url('../font/fontello.svg?30915299#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?59793955#fontello') format('svg');
+    src: url('../font/fontello.svg?30915299#fontello') format('svg');
   }
 }
 */
@@ -57,8 +57,18 @@
 .icon-eitaa:before { content: '\e800'; } /* '' */
 .icon-rubika:before { content: '\e801'; } /* '' */
 .icon-bale:before { content: '\e802'; } /* '' */
+.icon-cancel:before { content: '\e803'; } /* '' */
+.icon-share:before { content: '\e804'; } /* '' */
+.icon-mail:before { content: '\e805'; } /* '' */
+.icon-facebook:before { content: '\e806'; } /* '' */
+.icon-globe:before { content: '\e807'; } /* '' */
+.icon-comment-inv:before { content: '\e808'; } /* '' */
+.icon-clock:before { content: '\e809'; } /* '' */
 .icon-rubika-2:before { content: '\e80c'; } /* '' */
 .icon-zhavia:before { content: '\e80d'; } /* '' */
+.icon-x:before { content: '\e80e'; } /* '' */
+.icon-comment-empty:before { content: '\f0e5'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-hand-pointer-o:before { content: '\f25a'; } /* '' */
 .icon-telegram:before { content: '\f2c6'; } /* '' */
