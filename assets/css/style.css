@@ -48,6 +48,15 @@ Developer:	millerDigitalDesign (https://themeforest.net/user/millerdigitaldesign
 main
 
 ------------------------------------------- */
+@font-face {
+  font-family: 'iranian-fa-zhavia';
+  src: url('../../assets/fonts/Iranian-Sans.ttf') format('ttf');
+  /* سایر خاصیت‌های مورد نیاز مانند font-weight و font-style */
+}
+.selector {
+  font-family: 'iranian-fa-zhavia' , sans-serif;
+}
+
 html,
 body {
   padding: 0;
